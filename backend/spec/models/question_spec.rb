@@ -8,4 +8,8 @@ RSpec.describe Question, type: :model do
   describe 'presence' do
     it { is_expected.to validate_presence_of(:name) }
   end
+
+  describe 'relationship' do
+    it { should belong_to(:user).required }
+  end
 end

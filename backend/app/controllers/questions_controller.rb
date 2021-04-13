@@ -8,6 +8,6 @@ class QuestionsController < ApiController
   private
 
   def create_params
-    params.permit(:name)
+    params.permit(:name).merge(user_id: current_user.id)
   end
 end
