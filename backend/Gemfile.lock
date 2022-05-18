@@ -102,7 +102,7 @@ GEM
     autoprefixer-rails (10.4.2.0)
       execjs (~> 2)
     backport (1.2.0)
-    bcrypt (3.1.17)
+    bcrypt (3.1.18)
     benchmark (0.2.0)
     bindex (0.8.1)
     bootsnap (1.11.1)
@@ -143,9 +143,9 @@ GEM
     devise-bootstrap-views (1.1.0)
     devise-i18n (1.10.2)
       devise (>= 4.8.0)
-    devise-jwt (0.8.1)
+    devise-jwt (0.9.0)
       devise (~> 4.0)
-      warden-jwt_auth (~> 0.5)
+      warden-jwt_auth (~> 0.6)
     diff-lcs (1.5.0)
     digest (3.1.0)
     docile (1.4.0)
@@ -226,7 +226,7 @@ GEM
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    loofah (2.17.0)
+    loofah (2.18.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
@@ -254,7 +254,7 @@ GEM
       net-protocol
       timeout
     nio4r (2.5.8)
-    nokogiri (1.13.4-x86_64-linux)
+    nokogiri (1.13.6-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     parallel (1.22.1)
@@ -508,7 +508,7 @@ DEPENDENCIES
   devise
   devise-bootstrap-views (~> 1.0)
   devise-i18n
-  devise-jwt (~> 0.8.1)
+  devise-jwt (~> 0.9.0)
   dotenv-rails
   draper
   factory_bot_rails
